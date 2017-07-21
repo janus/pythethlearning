@@ -38,7 +38,7 @@ class PingServer(object):
         self.endpoint = my_endpoint
 
         ## get private key
-        priv_key_file = open('/home/emeka/pyeth/priv_key', 'r')
+        priv_key_file = open('~/priv_key', 'r')
         priv_key_serialized = priv_key_file.read()
         priv_key_file.close()
         self.priv_key = PrivateKey()
